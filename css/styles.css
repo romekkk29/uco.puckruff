@@ -1,0 +1,102 @@
+.imagen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+  }
+  .boton{
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    background-color: rgba(186, 224, 245, 0.6);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+  }
+  .fas{
+    margin:1px 7px;
+    font-size: 20px;
+  }
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(186, 224, 245, 0.6);
+    border-radius: 3px;
+  }
+  nav{
+    display: flex;
+   
+    
+  }
+  nav a{
+    margin: 0px auto;
+    padding: 2% 20px;
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.8)
+  }
+  li{
+    
+    letter-spacing: 1px;
+    font-family: "verdana";
+    font-size:90%;
+    font-weight: 100;
+  }
+  img{
+    width: 20%;
+    height: 20%;
+    opacity: 0.9;
+    border-radius: 3px;
+  
+  }
+  h2{
+    letter-spacing: 1px;
+    font-family: "impact";
+    font-size:150%;
+    font-weight: 500;
+    opacity: 0.8;
+  
+  
+  }
+  div{
+    display: flex;
+    align-items: center;
+  }
+  div img{
+    margin:8px auto;
+  }
+  
+  .menu-bar{
+    background-color:rgba(186, 224, 245, 0.6);
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    left:2px;
+    top:90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  .juan{
+    display: none;
+  }
+.menu-bar a{
+  margin: 5px auto;
+}
+  @media all and (max-width: 700px){
+    .banner {
+      display: none;
+    }
+    div img{
+      margin: 0px 20px;
+    }
+  }
+  @media all and (min-width: 700px){
+    .boton {
+      display: none;
+    }
+  }
